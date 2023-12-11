@@ -1,38 +1,86 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
+ 
+ 
+ 
+    .content {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        width: 1140px;
+        padding: 133px 30px;
+    }
 
-html {
-  block-size: 100%;
-}
+    .result{
+        align-self: flex-end;
+        padding-right: 16px;
+    }
 
-.page {
-  inline-size: 1200px;
-  block-size: 100%;
-  margin: auto;
-  color: #fff;
-  font-family: 'Fira Sans Condensed', sans-serif;
-  font-size: 18px;
-  background-color: #1b1919;
-}
+    .result__video-container {
+        display: flex;
+        width: 100%;
+        margin-bottom: 16px;
 
-h1,
-h2,
-h3,
-h4,
-p,
-ul,
-ol,
-li,
-blockquote,
-fieldset {
-  margin: 0;
-  padding: 0;
-}
+    }
 
-ul,
-ol {
-  list-style: none;
-}
+    .result__video {
+        display: grid;
+        inline-size: 100%;
+    }
+
+    .search-form {
+        display: flex;
+        justify-content: start;
+
+    }
+
+    .search-form__fieldset {
+        margin-right: 40px;
+
+    }
+
+    .search-form__fieldset-title {
+
+    }
+
+    .search-form__label {
+
+    }
+
+    .search-form__label-text {
+
+    }
+
+    .search-form__checkbox-list {
+
+    }
+
+    .search-form__pseudo-checkbox {
+
+    }
+
+    .search-form__submit-button {
+
+    }
+
+    .content__details {
+        
+ 
+    }
+
+    .title {
+
+    }
+
+    .content__accent {
+
+    }
+
+    .content__list {
+        position: relative;
+        align-self: flex-end;
+        width: 399px;
+        height: 298px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
+        overflow: scroll;
+    }
